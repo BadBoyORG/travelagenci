@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8vh 0;
+}
+
+.container span {
+  color: hsla(1, 37%, 52%, 1);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container h2 {
+  color: hsla(238, 27%, 20%, 1);
+  margin-top: 0;
+  margin-bottom: 4.25rem;
+}
+
+.container p {
+  color: hsla(238, 27%, 20%, 1);
+  margin-top: 0;
+  margin-bottom: 2.93rem;
+}
+
+.container a {
+  color: hsla(354, 82%, 62%, 1);
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 0;
+}

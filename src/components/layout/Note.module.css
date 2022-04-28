@@ -1,0 +1,59 @@
+.note {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  padding: 15px;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.note h2 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
+.note p {
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  padding: 0.2rem 0.3rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.medium {
+  font-size: 2rem;
+  padding: 0.4rem 0.5rem;
+}
+
+.red {
+  background-color: hsla(354, 82%, 62%, 1);
+}
+
+.yellow {
+  background-color: hsla(46, 86%, 59%, 1);
+}
+
+.topRight {
+  position: absolute;
+  z-index: 10;
+  width: 13.5rem;
+  height: 2.8rem;
+  bottom: 19rem;
+  left: -3rem;
+}
+
+.bottomRight {
+  position: absolute;
+  z-index: 10;
+  width: 15rem;
+  height: 6rem;
+  bottom: 3rem;
+}

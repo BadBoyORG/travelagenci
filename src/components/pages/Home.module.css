@@ -1,0 +1,42 @@
+.home_container {
+  padding: 10vh 0;
+  display: flex;
+  max-height: 100vh;
+  align-items: flex-end;
+  background-color: hsla(46, 86%, 59%, 1);
+}
+
+.home_container span {
+  color: hsla(1, 37%, 52%, 1);
+}
+
+.home_container h1 {
+  color: hsla(238, 27%, 20%, 1);
+  margin-bottom: 35px;
+}
+
+.home_container h3 {
+  color: hsla(238, 27%, 20%, 1);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.home_container p {
+  color: hsla(0, 0%, 28%, 1);
+  margin-bottom: 52px;
+}
+
+.home_container img {
+  width: 38rem;
+}
+
+.relativeposition {
+  position: relative;
+}
+
+.startRow {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}

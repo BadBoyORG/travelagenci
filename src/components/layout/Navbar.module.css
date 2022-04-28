@@ -1,0 +1,29 @@
+.container {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 50px;
+  max-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsla(46, 86%, 59%, 1);
+  color: hsla(238, 27%, 20%, 1);
+}
+
+.container li {
+  list-style-type: none;
+}
+
+.container a {
+  text-decoration: none;
+  color: hsla(238, 27%, 20%, 1);
+}
+
+.nav_list {
+  display: flex;
+  gap: 5rem;
+}

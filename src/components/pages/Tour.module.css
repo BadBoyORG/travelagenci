@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8vh 0;
+}
+
+.container span {
+  color: hsla(1, 37%, 52%, 1);
+}
+
+.container h2 {
+  color: hsla(238, 27%, 20%, 1);
+}
+
+.container p {
+  color: hsla(238, 27%, 20%, 1);
+  padding: 0 8rem;
+}
+
+.startRow {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
