@@ -1,12 +1,15 @@
 import styles from './Watch.module.css'
 
+import tour from '../../img/tour_promotion.png'
+
 import Container from '../layout/Container'
+import Video from '../layout/Video'
 
 function Watch() {
   return (
     <Container>
       <div className={styles.container}>
-        <div>
+        <div className={styles.relativeposition}>
           <h2>
             <span>Watch,</span> our lattest tour
           </h2>
@@ -18,8 +21,12 @@ function Watch() {
             specimen book.
           </p>
           <a href="/">Learn more</a>
+          <div className={styles.yellowMediumBall}></div>
+          <div className={styles.yellowSmallBall}></div>
         </div>
-        <div></div>
+        <div className={styles.relativeposition}>
+          <Video img={tour} />
+        </div>
       </div>
     </Container>
   )

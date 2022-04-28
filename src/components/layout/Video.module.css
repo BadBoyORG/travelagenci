@@ -1,0 +1,40 @@
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+.container img {
+  width: 32rem;
+  border: none;
+  border-radius: 15px;
+}
+
+.absolute {
+  position: absolute;
+  left: calc(50% - 24px);
+  top: calc(50% - 24px);
+}
+
+.red {
+  background-color: hsla(354, 82%, 62%, 1);
+  height: 6.5rem;
+  width: 6.5rem;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  z-index: -1;
+  top: -1.2rem;
+  left: -1.2rem;
+}
+
+.yellow {
+  background-color: hsla(46, 86%, 59%, 1);
+  height: 10.5rem;
+  width: 10.5rem;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  z-index: -1;
+  bottom: -1.2rem;
+  right: -1.2rem;
+}
