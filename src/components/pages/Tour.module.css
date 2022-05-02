@@ -17,6 +17,7 @@
 .container p {
   color: hsla(238, 27%, 20%, 1);
   padding: 0 8rem;
+  text-align: center;
 }
 
 .startRow {
