@@ -32,17 +32,6 @@
   margin-bottom: 0;
 }
 
-.container i {
-  background-color: hsla(0, 0%, 98%, 1);
-  border: none;
-  border-radius: 50%;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0.5rem 0.7rem;
-  color: hsla(350, 53%, 33%, 1);
-  box-shadow: 0 0.2em 0.5em rgb(203, 203, 203);
-}
-
 .containerHeader {
   margin-bottom: 3rem;
   display: flex;
@@ -51,11 +40,11 @@
   justify-content: center;
 }
 
-.relativeposition {
+.relativePosition {
   position: relative;
 }
 
-.marginposition {
+.marginPosition {
   margin-top: 10rem;
 }
 
@@ -77,4 +66,18 @@
 
 .centerP {
   text-align: center;
+}
+
+.iconStyle {
+  background-color: hsla(0, 0%, 98%, 1);
+  border: none;
+  border-radius: 50%;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  color: hsla(350, 53%, 33%, 1);
+  box-shadow: 0 0.2em 0.5em rgb(203, 203, 203);
 }

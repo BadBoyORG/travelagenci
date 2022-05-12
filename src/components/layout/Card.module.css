@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  margin: 1rem;
+  text-align: center;
+  width: 12rem;
+  height: 10rem;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0em 1em hsla(235, 51%, 31%, 0.08);
+}
+
+.container h3 {
+  color: hsla(350, 53%, 33%, 1);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.container p {
+  color: hsla(230, 6%, 18%, 1);
+  font-size: .9rem;
+}
+
+.icon {
+  position: absolute;
+  top: -2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .8rem;
+  border-radius: 50%;
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 2rem;
+  box-shadow: 0px 10px 40px 0px hsla(235, 43%, 37%, 0.06);
+}
+
+.red {
+  background-color: hsla(354, 82%, 62%, 1);
+}
+
+.yellow {
+  background-color: hsla(46, 86%, 59%, 1);
+}
+
+.brown {
+  background-color: hsla(29, 60%, 43%, 1);
+}
