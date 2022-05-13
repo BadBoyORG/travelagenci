@@ -11,7 +11,7 @@ import Card from '../layout/Card'
 function About() {
   return (
     <Container>
-      <div className={styles.container}>
+      <div className={styles.container} id="about">
         <di className={styles.containerHeader}>
           <h2>
             <span>Our</span> Team

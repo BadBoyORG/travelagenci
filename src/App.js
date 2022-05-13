@@ -1,11 +1,10 @@
-import './App.css'
-
 import Navbar from './components/layout/Navbar'
 
 import Home from './components/pages/Home'
 import Tour from './components/pages/Tour'
 import Watch from './components/pages/Watch'
 import About from './components/pages/About'
+import Blog from './components/pages/Blog'
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
       <Tour />
       <Watch />
       <About />
+      <Blog />
     </>
   )
 }

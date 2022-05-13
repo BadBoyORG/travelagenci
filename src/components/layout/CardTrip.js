@@ -8,11 +8,9 @@ function CardTrip(props) {
       <img src={props.img} />
       <div className={styles.absolute}>
         <h4>{props.name}</h4>
-        <SimpleButton
-          to="/Home"
-          customSize="transparent"
-          children="Start trip today"
-        />
+        <a href="#home">
+          <SimpleButton customSize="transparent" children="Start trip today" />
+        </a>
       </div>
     </div>
   )

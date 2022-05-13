@@ -7,10 +7,16 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .btn i {
   position: relative;
   left: 0.15rem;
   top: 0.15rem;
+}
+
+.btn:hover {
+  color: hsla(0, 0%, 100%, 1);
+  background-color: hsla(194, 86%, 54%, 1);
 }

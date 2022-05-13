@@ -13,7 +13,7 @@ import CardTrip from '../layout/CardTrip'
 function Tour() {
   return (
     <Container>
-      <div className={styles.container}>
+      <div className={styles.container} id="tour">
         <h2>
           <span>Check Our Best</span> Promotional Tour
         </h2>

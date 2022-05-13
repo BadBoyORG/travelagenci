@@ -11,7 +11,7 @@ import Note from '../layout/Note'
 
 function Home() {
   return (
-    <div className={styles.home_container}>
+    <div className={styles.home_container} id="home">
       <Container>
         <div>
           <h1>
@@ -22,8 +22,12 @@ function Home() {
             true...
           </p>
           <div className={styles.startRow}>
-            <SimpleButton to="/Home">Explore Destinations</SimpleButton>
-            <PlayButton to="Home" />
+            <a href="#home">
+              <SimpleButton to="/Home">Explore Destinations</SimpleButton>
+            </a>
+            <a href="#home">
+              <PlayButton />
+            </a>
             <h3>Watch how it works</h3>
           </div>
         </div>
@@ -44,9 +48,9 @@ function Home() {
             info="Today at 12.00 PM"
             icon={<FaSuitcaseRolling />}
             button={
-              <SimpleButton customSize="small" to="/Home">
-                Join Now
-              </SimpleButton>
+              <a href="#blog">
+                <SimpleButton customSize="small">Join Now</SimpleButton>
+              </a>
             }
           />
         </div>

@@ -21,8 +21,8 @@ function Watch() {
             specimen book.
           </p>
           <a href="/">Learn more</a>
-          <div className={styles.yellowMediumBall}></div>
-          <div className={styles.yellowSmallBall}></div>
+          <div className={styles.yellowMediumBall} />
+          <div className={styles.yellowSmallBall} />
         </div>
         <div className={styles.relativeposition}>
           <Video img={tour} />

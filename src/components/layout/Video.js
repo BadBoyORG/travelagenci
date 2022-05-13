@@ -8,7 +8,9 @@ function Video(props) {
       <img src={props.img} />
       <div className={styles.red}></div>
       <div className={styles.yellow}></div>
-      <PlayButton className={styles.absolute} />
+      <a href="#">
+        <PlayButton className={styles.absolute} />
+      </a>
     </div>
   )
 }

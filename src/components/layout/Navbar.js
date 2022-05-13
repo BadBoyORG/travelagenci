@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 import styles from './Navbar.module.css'
 
 function Navbar() {
@@ -8,19 +6,19 @@ function Navbar() {
       <div>logo</div>
       <ul className={styles.nav_list}>
         <li>
-          <a href="/">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="/Events">Events</a>
+          <a href="#tour">Events</a>
         </li>
         <li>
-          <a href="/About">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="/Blog">Blog</a>
+          <a href="#blog">Blog</a>
         </li>
         <li>
-          <a href="/Contact">Contact</a>
+          <a href="#home">Contact</a>
         </li>
       </ul>
       <div>HandleColor</div>

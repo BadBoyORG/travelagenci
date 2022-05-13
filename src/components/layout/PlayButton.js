@@ -2,15 +2,13 @@ import styles from './PlayButton.module.css'
 
 import { FaPlay } from 'react-icons/fa'
 
-function PlayButton(props) {
+function PlayButton({ className, ...rest }) {
   return (
-    <form method="get" action={props.to}>
-      <button className={`${styles.btn} ${props.className}`} type="submit">
-        <i>
-          <FaPlay />
-        </i>
-      </button>
-    </form>
+    <button className={`${styles.btn} ${className}`} {...rest}>
+      <i>
+        <FaPlay />
+      </i>
+    </button>
   )
 }
 
