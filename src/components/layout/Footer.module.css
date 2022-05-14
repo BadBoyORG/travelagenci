@@ -1,0 +1,73 @@
+.container {
+  background-color: hsla(350, 53%, 33%, 1);
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: hsla(46, 86%, 59%, 1);
+}
+
+.input_email {
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 1);
+  padding: .8rem 1rem;
+  border: 1px solid hsla(46, 86%, 59%, 1);
+  border-radius: 25px;
+}
+
+.input_email::placeholder {
+  color: hsla(0, 0%, 100%, 1);
+  opacity: 85%;
+}
+
+.btn {
+  color: hsla(0, 0%, 100%, 1);
+  padding: .8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(105.5deg, #EE5060 19.57%, #B25A59 78.85%);
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.row_gap {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.row_gap p {
+  margin: 0;
+  padding: 0;
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: 500;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.column span {
+  color: hsla(350, 61%, 41%, 1);
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.gap {
+  display: flex;
+  gap: 1rem;
+}

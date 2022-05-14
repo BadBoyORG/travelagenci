@@ -1,4 +1,5 @@
 import Navbar from './components/layout/Navbar'
+import Footer from './components/layout/Footer'
 
 import Home from './components/pages/Home'
 import Tour from './components/pages/Tour'
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Blog />
       <News />
+      <Footer />
     </>
   )
 }
