@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10rem 0 6rem 0;
+}
+
+.container h2 {
+  color: hsla(1, 37%, 52%, 1);
+}
+
+.container p {
+  color: hsla(238, 27%, 20%, 1);
+}
+
+.news {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+  text-align: left;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.news h3 {
+  color: hsla(1, 37%, 52%, 1);
+}
+
+.news a {
+  color: hsla(354, 82%, 62%, 1);
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.news_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.news_column_gap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.news_column_image {
+  width: 35rem;
+  margin-bottom: 1.5rem;
+}
+
+.news_row {
+  display: flex;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.new_row_image {
+  width: 15rem;
+}
+
+.news_row h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.news_row p {
+  margin: 0;
+  padding: 0;
+}
+
+.news_alternative {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.ballon {
+  background-color: hsla(46, 86%, 59%, 1);
+  color: hsla(230, 6%, 18%, 1);
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 500;
+  padding: .5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  border-radius: 35px;
+}
+
+.ballon_news {
+  background-color: hsla(46, 86%, 59%, 1);
+  color: hsla(230, 6%, 18%, 1);
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 500;
+  padding: .5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 1rem;
+  border-radius: 35px;
+  position: absolute;
+  bottom: 1rem;
+  right: 22rem;
+}
+
+.ballon_press_release {
+  background-color: hsla(46, 86%, 59%, 1);
+  color: hsla(230, 6%, 18%, 1);
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 500;
+  padding: .5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 1rem;
+  border-radius: 35px;
+  position: absolute;
+  bottom: 1rem;
+  right: 22rem;
+}

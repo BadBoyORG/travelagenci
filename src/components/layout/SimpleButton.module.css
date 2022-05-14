@@ -7,6 +7,11 @@
   color: hsla(0, 0%, 100%, 1);
   font-weight: bold;
   font-size: 0.8rem;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: hsla(354, 82%, 62%, 1);
 }
 
 .small {
