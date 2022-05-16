@@ -22,8 +22,8 @@ function Home() {
             true...
           </p>
           <div className={styles.startRow}>
-            <a href="#home">
-              <SimpleButton to="/Home">Explore Destinations</SimpleButton>
+            <a href="#tour">
+              <SimpleButton id="btn-home">Explore Destinations</SimpleButton>
             </a>
             <a href="#home">
               <PlayButton />

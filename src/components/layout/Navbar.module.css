@@ -33,3 +33,55 @@
   display: flex;
   gap: 5rem;
 }
+
+.startRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_red{
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(1, 37%, 52%, 1);
+  padding: 10px 15px;
+  margin: 0 .2rem;
+  cursor: pointer;
+  border: 2px solid hsla(0, 0%, 100%, 1);
+  border-radius: 5px;
+}
+
+.btn_yellow{
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(46, 86%, 59%, 1);
+  padding: 10px 15px;
+  margin: 0 .2rem;
+  cursor: pointer;
+  border: 2px solid hsla(0, 0%, 100%, 1);
+  border-radius: 5px;
+}
+
+.btn_black{
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(230, 6%, 18%, 1);
+  padding: 10px 15px;
+  margin: 0 .2rem;
+  cursor: pointer;
+  border: 2px solid hsla(0, 0%, 100%, 1);
+  border-radius: 5px;
+}
