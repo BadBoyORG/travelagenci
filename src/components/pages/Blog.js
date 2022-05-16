@@ -53,8 +53,8 @@ function Blog() {
   }
 
   return (
-    <Container>
-      <div className={styles.container} id="blog">
+    <Container id="blog">
+      <div className={styles.container}>
         <div>
           <div className={styles.row}>
             <div className={styles.barRow} />

@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 
 function Footer() {
   return (
-    <div className={styles.container}>
+    <div id="footer" className={styles.container}>
       <div className={styles.row_gap}>
         logo
         <div>
@@ -28,13 +28,13 @@ function Footer() {
       </div>
       <div className={styles.column}>
         <div className={styles.gap}>
-          <span>Careers</span>
-          <span>|</span>
-          <span>Privacy Policy</span>
-          <span>|</span>
-          <span>Terms & Conditions</span>
+          <span id="span1">Careers</span>
+          <span id="span2">|</span>
+          <span id="span3">Privacy Policy</span>
+          <span id="span4">|</span>
+          <span id="span5">Terms & Conditions</span>
         </div>
-        <span>© 2021 Tourism Department. </span>
+        <span id="span6">© 2022 BadBoyORG. </span>
       </div>
     </div>
   )

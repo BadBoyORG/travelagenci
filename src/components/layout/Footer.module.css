@@ -1,5 +1,5 @@
 .container {
-  background-color: hsla(350, 53%, 33%, 1);
+  background-color: hsla(46, 79%, 49%, 1);
   margin: 0 auto;
   padding: 2rem 0;
   display: flex;
@@ -10,14 +10,14 @@
 .container h3 {
   font-size: 1.2rem;
   font-weight: 500;
-  color: hsla(46, 86%, 59%, 1);
+  color: hsla(230, 6%, 18%, 1);
 }
 
 .input_email {
   background-color: transparent;
-  color: hsla(0, 0%, 100%, 1);
+  color: hsla(230, 6%, 18%, 1);
   padding: .8rem 1rem;
-  border: 1px solid hsla(46, 86%, 59%, 1);
+  border: 1px solid hsla(0, 0%, 100%, 1);
   border-radius: 25px;
 }
 
@@ -28,11 +28,17 @@
 
 .btn {
   color: hsla(0, 0%, 100%, 1);
-  padding: .8rem 1.5rem;
+  font-weight: bold;
+  padding: .8rem 1.32rem;
   border: none;
   border-radius: 25px;
   background: linear-gradient(105.5deg, #EE5060 19.57%, #B25A59 78.85%);
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: linear-gradient(105.5deg, #f95e6d 19.57%, #de4857 78.85%);
 }
 
 .row {
@@ -62,7 +68,7 @@
 }
 
 .column span {
-  color: hsla(350, 61%, 41%, 1);
+  color: hsla(46, 98%, 64%, 1);
   margin-top: 1rem;
   margin-bottom: 0;
 }

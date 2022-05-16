@@ -9,7 +9,7 @@ import Container from '../layout/Container'
 
 function News() {
   return (
-    <Container>
+    <Container id="news">
       <div className={styles.container}>
         <h2>Lastest News and Resources</h2>
         <p>

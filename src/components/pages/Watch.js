@@ -7,7 +7,7 @@ import Video from '../layout/Video'
 
 function Watch() {
   return (
-    <Container>
+    <Container id="watch">
       <div className={styles.container}>
         <div className={styles.relativeposition}>
           <h2>

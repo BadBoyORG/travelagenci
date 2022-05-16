@@ -12,8 +12,8 @@ import CardTrip from '../layout/CardTrip'
 
 function Tour() {
   return (
-    <Container>
-      <div className={styles.container} id="tour">
+    <Container id="tour">
+      <div className={styles.container}>
         <h2>
           <span>Check Our Best</span> Promotional Tour
         </h2>

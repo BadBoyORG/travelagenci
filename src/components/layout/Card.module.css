@@ -12,6 +12,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 0em 1em hsla(235, 51%, 31%, 0.08);
+  background-color: hsla(0, 0%, 100%, 1);
 }
 
 .container h3 {

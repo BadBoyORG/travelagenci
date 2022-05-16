@@ -10,8 +10,8 @@ import Card from '../layout/Card'
 
 function About() {
   return (
-    <Container>
-      <div className={styles.container} id="about">
+    <Container id="about">
+      <div className={styles.container}>
         <di className={styles.containerHeader}>
           <h2>
             <span>Our</span> Team

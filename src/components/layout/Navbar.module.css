@@ -41,7 +41,7 @@
   justify-content: center;
 }
 
-.btn_red{
+.btn_red {
   color: hsla(0, 0%, 100%, 1);
   font-weight: bold;
   font-size: 1rem;
@@ -49,14 +49,14 @@
   align-items: center;
   justify-content: center;
   background-color: hsla(1, 37%, 52%, 1);
-  padding: 10px 15px;
+  padding: 10px 5px;
   margin: 0 .2rem;
   cursor: pointer;
   border: 2px solid hsla(0, 0%, 100%, 1);
   border-radius: 5px;
 }
 
-.btn_yellow{
+.btn_yellow {
   color: hsla(0, 0%, 100%, 1);
   font-weight: bold;
   font-size: 1rem;
@@ -64,14 +64,14 @@
   align-items: center;
   justify-content: center;
   background-color: hsla(46, 86%, 59%, 1);
-  padding: 10px 15px;
+  padding: 10px 5px;
   margin: 0 .2rem;
   cursor: pointer;
   border: 2px solid hsla(0, 0%, 100%, 1);
   border-radius: 5px;
 }
 
-.btn_black{
+.btn_black {
   color: hsla(0, 0%, 100%, 1);
   font-weight: bold;
   font-size: 1rem;
@@ -79,9 +79,37 @@
   align-items: center;
   justify-content: center;
   background-color: hsla(230, 6%, 18%, 1);
-  padding: 10px 15px;
+  padding: 10px 5px;
   margin: 0 .2rem;
   cursor: pointer;
   border: 2px solid hsla(0, 0%, 100%, 1);
   border-radius: 5px;
+}
+
+.btn_sun{
+  color: hsla(230, 6%, 18%, 1);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 100%, 1);
+  padding: 8.5px;
+  margin: 0 .2rem;
+  cursor: pointer;
+  border: 2px solid hsla(0, 0%, 100%, 1);
+  border-radius: 25px 5px 5px 25px;
+}
+
+.btn_moon{
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(230, 6%, 18%, 1);
+  padding: 10px;
+  margin: 0 .2rem;
+  cursor: pointer;
+  border: 2px solid hsla(0, 0%, 100%, 1);
+  border-radius: 5px 25px 25px 5px;
 }
