@@ -1,0 +1,63 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoname {
+  font-family: cursive, sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+.polygon1 {
+  position: absolute;
+  z-index: -1;
+  width: 2.6rem;
+  height: 2.6rem;
+  left: -0.6rem;
+  bottom: -0.4rem;
+  background-color: hsla(230, 6%, 18%, 1);
+  border-radius: 6px;
+  transform: rotate(45deg);
+}
+
+.polygon2 {
+  position: absolute;
+  z-index: -1;
+  width: 2.6rem;
+  height: 2.6rem;
+  left: 1.4rem;
+  bottom: -0.4rem;
+  background-color: hsla(230, 6%, 18%, 1);
+  border-radius: 6px;
+  transform: rotate(45deg);
+}
+
+.polygon3 {
+  position: absolute;
+  z-index: -1;
+  width: 2.6rem;
+  height: 2.6rem;
+  left: 3.4rem;
+  bottom: -0.4rem;
+  background-color: hsla(230, 6%, 18%, 1);
+  border-radius: 6px;
+  transform: rotate(45deg);
+}
+
+.polygon4 {
+  position: absolute;
+  z-index: -1;
+  width: 2.6rem;
+  height: 2.6rem;
+  left: 5.4rem;
+  bottom: -0.4rem;
+  background-color: hsla(230, 6%, 18%, 1);
+  border-radius: 6px;
+  transform: rotate(45deg);
+}

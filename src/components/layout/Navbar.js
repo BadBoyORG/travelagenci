@@ -3,6 +3,8 @@ import styles from './Navbar.module.css'
 import { MdInvertColors } from 'react-icons/md'
 import { BsMoonFill, BsSunFill } from 'react-icons/bs'
 
+import Logo from './Logo'
+
 function Navbar() {
   function handleColorRed() {
     const navbar = document.getElementById('nav-bar')
@@ -52,6 +54,17 @@ function Navbar() {
       event.target.style.color = 'hsla(0, 0%, 100%, 1)'
     })
 
+    document.querySelectorAll('#logoname')[0].style.color =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon1')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon2')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon3')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon4')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+
     home.style.backgroundColor = 'hsla(1, 37%, 52%, 1)'
     home.querySelector('h1').style.color = 'hsla(0, 0%, 100%, 1)'
     home.querySelector('h3').style.color = 'hsla(0, 0%, 100%, 1)'
@@ -78,6 +91,16 @@ function Navbar() {
     document.getElementById('span4').style.color = 'hsla(350, 61%, 41%, 1)'
     document.getElementById('span5').style.color = 'hsla(350, 61%, 41%, 1)'
     document.getElementById('span6').style.color = 'hsla(350, 61%, 41%, 1)'
+    document.querySelectorAll('#logoname')[1].style.color =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon1')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon2')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon3')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon4')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
   }
 
   function handleColorYellow() {
@@ -128,6 +151,17 @@ function Navbar() {
       event.target.style.color = 'hsla(238, 27%, 20%, 1)'
     })
 
+    document.querySelectorAll('#logoname')[0].style.color =
+      'hsla(0, 0%, 100%, 1)'
+    document.querySelectorAll('#polygon1')[0].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon2')[0].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon3')[0].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon4')[0].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
+
     home.style.backgroundColor = 'hsla(46, 86%, 59%, 1)'
     home.querySelector('h1').style.color = 'hsla(238, 27%, 20%, 1)'
     home.querySelector('h3').style.color = 'hsla(238, 27%, 20%, 1)'
@@ -154,6 +188,16 @@ function Navbar() {
     document.getElementById('span4').style.color = 'hsla(46, 98%, 64%, 1)'
     document.getElementById('span5').style.color = 'hsla(46, 98%, 64%, 1)'
     document.getElementById('span6').style.color = 'hsla(46, 98%, 64%, 1)'
+    document.querySelectorAll('#logoname')[1].style.color =
+      'hsla(0, 0%, 100%, 1)'
+    document.querySelectorAll('#polygon1')[1].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon2')[1].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon3')[1].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon4')[1].style.backgroundColor =
+      'hsla(230, 6%, 18%, 1)'
   }
 
   function handleColorBlack() {
@@ -204,6 +248,17 @@ function Navbar() {
       event.target.style.color = 'hsla(0, 0%, 100%, 1)'
     })
 
+    document.querySelectorAll('#logoname')[0].style.color =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon1')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon2')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon3')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon4')[0].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+
     home.style.backgroundColor = 'hsla(230, 6%, 18%, 1)'
     home.querySelector('h1').style.color = 'hsla(0, 0%, 100%, 1)'
     home.querySelector('h3').style.color = 'hsla(0, 0%, 100%, 1)'
@@ -231,6 +286,16 @@ function Navbar() {
     document.getElementById('span4').style.color = 'hsl(231, 6%, 23%, 1)'
     document.getElementById('span5').style.color = 'hsl(231, 6%, 23%, 1)'
     document.getElementById('span6').style.color = 'hsl(231, 6%, 23%, 1)'
+    document.querySelectorAll('#logoname')[1].style.color =
+      'hsla(230, 6%, 18%, 1)'
+    document.querySelectorAll('#polygon1')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon2')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon3')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
+    document.querySelectorAll('#polygon4')[1].style.backgroundColor =
+      'hsla(46, 86%, 59%, 1)'
   }
 
   function handleLightMode() {
@@ -300,7 +365,7 @@ function Navbar() {
 
   return (
     <nav id="nav-bar" className={styles.container}>
-      <div>logo</div>
+      <Logo />
       <ul className={styles.nav_list}>
         <li>
           <a id="nav-bar-links1" href="#home">

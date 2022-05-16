@@ -1,10 +1,12 @@
 import styles from './Footer.module.css'
 
+import Logo from './Logo'
+
 function Footer() {
   return (
     <div id="footer" className={styles.container}>
       <div className={styles.row_gap}>
-        logo
+        <Logo />
         <div>
           <p>Domestic</p>
           <p>International</p>
