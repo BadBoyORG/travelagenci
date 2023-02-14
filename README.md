@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+<img src='https://user-images.githubusercontent.com/101475826/218624774-c6c85424-fdd8-4739-a4de-9c46711bbf2e.png'>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align='center'><a href='https://travelagency-three.vercel.app'>See the website</a></h2>
 
-## Available Scripts
+## 📒 About
 
-In the project directory, you can run:
+_PT:_ **Travel Agency** é meu segundo projeto em **React JS**, desenvolvido inteiramente por mim com base no [figma](https://www.figma.com/file/em5CZw1xBSc9IvAqhciDWp/Travel-Agency-Landing-Page-(Community)?node-id=0%3A1&t=e5i9K5I2YQDRlO32-0) com objetivo de aplicar tudo o que aprendi sobre **React JS** e me desafiar, principalmente na alteração de tema/cor do site, que contém três cores (amarelo, vermelho e preto) e tema light e dark, feito por alteração na DOM. </br> O website é sobre uma empresa fictícia de viagens, sendo domesticas ou internacional, contendo informações sobre a empresa, promoções, eventos e noticias, além de contar com um mini blog de depoimentos de clientes.
 
-### `npm start`
+_EN:_ **Travel Agency** is my second project in **React JS**, developed entirely by myself based on [figma](https://www.figma.com/file/em5CZw1xBSc9IvAqhciDWp/Travel-Agency-Landing-Page-(Community)?node-id=0%3A1&t=e5i9K5I2YQDRlO32-0) with the objective of applying everything I learned about **React JS** and challenging myself, mainly in changing the theme/color of the site, which contains three colors (yellow, red and black) and light and dark theme, made by changing the DOM. </br> The website is about a fictional travel company, being domestic or international, containing information about the company, promotions, events and news, in addition to having a mini blog with customer testimonials.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Tools
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React JS**
+- **React Icons**
 
-### `npm test`
+## 🔍 Layouts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 💻 **Desktop**
 
-### `npm run build`
+## ⚠ Bugs and Updates
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> **Update** <br> _PT:_ Faltando uma versão responsiva para mobile. <br> _EN:_ Missing a responsive mobile version.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> **Update** <br> _PT:_ Faltando uma versão responsiva para tablet. <br> _EN:_ Missing a responsive tablet version.
